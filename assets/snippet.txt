@@ -1,0 +1,24 @@
+<model-viewer src="earbuds.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.png" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="3.8164632109862975m 0.32589247278525413m -4.7275492522554785m" data-normal="0.08580265151321283m 0m 0.9963121523866414m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging Magnet</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="2.9288470768989088m 2.933409362773565m -4.554488092345997m" data-normal="4.1917877392655735e-24m -3.4228542950295595e-8m 0.9999999999999996m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Sound Base</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-8.216872052603845m 3.5910552179016317m -3.7050706148147547m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging Case</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="3.9238560410858234m 2.3334284636672504m -5.413086480444974m" data-normal="0.19509017449225866m 0m -0.9807853097475411m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Power Display</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-10.125066589274105m 1.230917247662541m -3.7050706148147583m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Brand Name</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-10.13522505140368m 2.9476057494098735m -3.7050706148147583m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charge Rate Display</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
